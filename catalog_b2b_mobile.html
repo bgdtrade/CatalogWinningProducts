@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalog B2B produse</title>
+<style>
+* { box-sizing:border-box; }
+
+body {
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#eef2f7;
+  color:#111827;
+}
+
+.sub {
+  font-size:13px;
+  color:#6b7280;
+  text-align:center;
+  margin-top:-6px;
+  margin-bottom:10px;
+}
+
+/* CONTAINER */
+.wrap {
+  max-width:480px; /* IMPORTANT pentru mobil */
+  margin:0 auto;
+  padding:12px;
+}
+
+/* HEADER */
+.hero {
+  background:#111827;
+  color:#fff;
+  border-radius:16px;
+  padding:14px;
+  margin-bottom:16px;
+  text-align:center;
+}
+
+.hero h1 {
+  margin:0;
+  font-size:20px;
+}
+
+h2 {
+  font-size:18px;
+  line-height:1.3;
+  margin:0 0 12px;
+  font-weight:700;
+  text-align:center;
+  text-wrap:balance;
+}
+
+/* CARD */
+.card {
+  background:#fff;
+  border-radius:18px;
+  margin-bottom:18px;
+
+  /* DELIMITARE CLARĂ */
+  border:1px solid #e2e8f0;
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+  overflow:hidden;
+}
+
+/* IMAGINE */
+.media {
+  padding:14px 12px 10px;
+  border-bottom:1px solid #f1f5f9;
+  background:#fcfcfd;
+  display:flex;
+  justify-content:center;
+}
+
+.media img {
+  width:68%;
+  max-width:220px;
+  aspect-ratio: 3 / 4;
+  object-fit:contain;
+  display:block;
+  border-radius:14px;
+  background:#fff;
+}
+
+.media-label {
+  margin:6px 0 8px;
+  text-align:center;
+  font-size:12px;
+  color:#6b7280;
+  font-weight:600;
+} 
+/* CONTINUT */
+.content {
+  padding:12px;
+}
+
+/* TITLU */
+h2 {
+  font-size:18px;
+  line-height:1.3;
+  margin:0 0 12px;
+  font-weight:700;
+  text-align:center;
+}
+
+/* PRET + STOC */
+.badges {
+  display:flex;
+  gap:8px;
+  margin-bottom:12px;
+}
+
+.badge {
+  flex:1;
+  background:#f8fafc;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:10px 8px;
+  text-align:center;
+}
+
+.badge span {
+  font-size:11px;
+  color:#6b7280;
+  display:block;
+  margin-bottom:4px;
+}
+
+.badge strong {
+  font-size:16px;
+  display:block;
+  margin-top:2px;
+  font-weight:800;
+}
+
+.pret {
+  background:#f0fdf4;
+  border-color:#bbf7d0;
+}
+
+.pret strong {
+  color:#166534;
+}
+
+.stoc {
+  background:#eff6ff;
+  border-color:#bfdbfe;
+}
+
+.stoc strong {
+  color:#1e40af;
+}
+
+
+.media {
+  padding:12px;
+  border-bottom:1px solid #f1f5f9;
+  background:#fcfcfd;
+}
+
+.media img {
+  width:100%;
+  height:220px;
+  object-fit:contain;
+  display:block;
+  margin:0 auto;
+  border-radius:14px;
+  background:#fff;
+  border:1px solid #eef2f7;
+}
+
+.video-box {
+  display:flex;
+  justify-content:center;
+  margin-top:10px;
+}
+
+.video-box video {
+  width:52%;
+  max-width:170px;
+  aspect-ratio: 9 / 16;
+  object-fit:cover;
+  border-radius:14px;
+  background:#000;
+}</style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1><strong>Catalog Produse</strong></h1>
+    </section>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/GjTDbwR.jpg" alt="Mănușă pentru îndepărtarea părului de animale și masaj pentru câini și pisici">
+      </div>
+      <div class="content">
+        <h2>Mănușă păr animale</h2>
+        <p class="sub">Curățare + masaj câini și pisici</p>
+        <div class="badges">
+  <div class="badge pret">
+    <span>Preț</span>
+    <strong>3,5 Lei</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/DJQwGFv.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/iSN8JN5.png" alt="Parfum cu feromoni pentru atracție instantă și încredere masculină">
+      </div>
+      <div class="content">
+        <h2>Parfum cu feromoni pentru bărbați</h2>
+<p class="sub">Atracție instantă și încredere masculină</p>
+        <div class="badges">
+  <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/9JCOaes.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/NbqbrPz.jpg" alt="Cremă pentru mărire și stimulare penis – BIG XXL, efect intens și rapid">
+      </div>
+      <div class="content">
+        <h2>Cremă pentru mărire penis BIG XXL</h2>
+<p class="sub">Efect intens și rapid</p>
+        <div class="badges">
+         <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/8SH4ZCB.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/NPveIDC.png" alt="Spray pentru întârzierea ejaculării – Dragon Power 9000, control și durată prelungită">
+      </div>
+      <div class="content">
+        <h2>Spray pentru întârzierea ejaculării Dragon Power 9000 </h2>
+<p class="sub">Control și durată prelungită</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/lp4Colm.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/pTDhNkT.png" alt="Perie silicon pentru spălare și masaj corporal cu mâner dublu – curățare și exfoliere eficientă">
+      </div>
+      <div class="content">
+        <h2>Perie silicon pentru spălare și masaj corporal cu mâner dublu</h2>
+<p class="sub">Curățare și exfoliere eficientă</p>
+        <div class="badges">
+         <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/3TLS8sc.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/AhJGlOE.png" alt="Bandă nano adezivă reutilizabilă super puternică – fixare fără găuri și fără urme">
+      </div>
+      <div class="content">
+        <h2>Bandă nano adezivă fixare</h2>
+<p class="sub">Fixare fără găuri și fără urme</p>
+        <div class="badges">
+         <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/9MNqdKA.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/H0OPLdG.png" alt="Plasturi pentru slăbit Slim Patch – arderea grăsimilor și subțierea taliei fără efort">
+      </div>
+      <div class="content">
+        <h2>Plasturi pentru slăbit Slim Patch</h2>
+<p class="sub">Arde grăsimile și subțiează talia fără efort</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/QFkLO5p.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/Lor21jv.png" alt="Plasturi pentru dureri de genunchi – ameliorare rapidă a durerii și inflamației articulare">
+      </div>
+      <div class="content">
+        <h2>Plasturi pentru dureri de genunchi</h2>
+<p class="sub">Ameliorare rapidă a durerii și inflamației articulare</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/v2Las88.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/y3QSVoP.png" alt="Cremă anti-acnee cu extract de arbore de ceai și cafea – curățare, calmare și ten fără imperfecțiuni">
+      </div>
+      <div class="content">
+        <h2>Cremă anti-acnee cu extract de arbore de ceai și cafea</h2>
+<p class="sub">Curățare, calmare și ten fără imperfecțiuni</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/uHV5Sgc.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/53aTr7m.png" alt="Vopsea auto pentru zgârieturi cu pensulă – corectare rapidă și acoperire perfectă a defectelor">
+      </div>
+      <div class="content">
+        <h2>Vopsea auto pentru zgârieturi cu pensulă</h2>
+<p class="sub">Corectare rapidă și acoperire perfectă a defectelor</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/Mt6z3qz.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://imgur.com/NVcofVG.jpg" alt="Joc răzuibil pentru cupluri – provocări romantice și distracție pentru relații mai puternice">
+      </div>
+      <div class="content">
+        <h2>Joc răzuibil pentru cupluri</h2>
+<p class="sub">Provocări romantice și distracție pentru relații mai puternice</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/1Dr4Kz9.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="media">
+        <img src="https://i.imgur.com/7oexFA1.png" alt="Capace roți LED luminoase – iluminare spectaculoasă pentru roți și vizibilitate pe timp de noapte">
+      </div>
+      <div class="content">
+        <h2>Capace roți LED luminoase</h2>
+<p class="sub">Iluminare spectaculoasă pentru roți și vizibilitate pe timp de noapte</p>
+        <div class="badges">
+          <div class="badge pret">
+    <span>Preț</span>
+    <strong>de completat</strong>
+  </div>
+
+  <div class="badge stoc">
+    <span>Stoc</span>
+    <strong>de completat</strong>
+  </div>
+</div>
+<p class="media-label">Video produs</p>
+        <div class="video-box">
+          <video controls playsinline preload="metadata">
+            <source src="https://i.imgur.com/UHa1b0W.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</body>
+</html>

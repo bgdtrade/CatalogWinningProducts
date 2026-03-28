@@ -74,6 +74,22 @@ h2 {
   transition: all 0.3s ease;
 }
 
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centrează tot pe orizontală */
+}
+
+  .product-text {
+    text-align: center; /* centrează textul */
+    margin-bottom: 10px;
+}
+
+  .product-image img {
+    display: block;
+    margin: 0 auto; /* asigură centrare */
+    max-width: 150px;
+}
 .product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
